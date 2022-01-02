@@ -326,17 +326,7 @@ const DonationFormDonate: React.FC<{ formMethods: UseFormReturn<DonationFormResp
     <>
       <SectionTitle>Donate</SectionTitle>
       <p>
-        We recommend giving an amount that feels <span className="font-bold">significant to you</span>.
-        {" "}
-        <Tooltip
-          label={(
-            <p>
-              We hope that through joining Raise this year, you'll come to see how positive the experience of giving deliberately can be. To help you to engage in that way, we recommend that you donate an amount which requires you to think before you give and to reflect on the positive impact that your donation will have.
-            </p>
-          )}
-        >
-          How do I decide what that means for me?<QuestionMarkCircleIcon width={22} height={22} className="ml-1" />
-        </Tooltip>
+        We recommend giving an amount that feels <span className="font-bold">significant to you</span>. This is an amount which requires you to think before you give and to reflect on the positive impact that your donation will have. By doing this, you'll come to see how positive the experience of giving deliberately can be.
       </p>
       <p className="mt-2">I want to give<span className="inline sm:hidden"> a</span>...</p>
 
